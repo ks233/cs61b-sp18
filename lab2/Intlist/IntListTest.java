@@ -50,6 +50,7 @@ public class IntListTest {
 
     @Test
     public void testDcatenate() {
+        // IntList testNull = IntList.dcatenate(null,null);
         IntList A = IntList.of(1, 2, 3);
         IntList B = IntList.of(4, 5, 6);
         IntList exp = IntList.of(1, 2, 3, 4, 5, 6);
@@ -59,6 +60,7 @@ public class IntListTest {
 
     @Test
     public void testCatenate() {
+        // IntList testNull = IntList.catenate(null, IntList.of(1, 2, 3));
         IntList A = IntList.of(1, 2, 3);
         IntList B = IntList.of(4, 5, 6);
         IntList exp = IntList.of(1, 2, 3, 4, 5, 6);
